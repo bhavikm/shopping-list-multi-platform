@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="5dp" android:weightSum="1">
+
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:id="@+id/itemNameTextView" android:layout_weight="0.03"/>
+    <TextView
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:id="@+id/priceTextView" android:layout_gravity="right" android:layout_weight="0.03"/>
+    <TextView
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:text="Item Description"
+            android:id="@+id/descriptionTextView" android:layout_weight="0.03"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+On command line:
+1. Navigate to ShoppingListJava folder
+2. javac *.java
+3. java Driver
